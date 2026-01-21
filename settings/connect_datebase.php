@@ -17,13 +17,13 @@
         'expires' => time() + 3600,
         'path' => '/',
         'secure' => false,
-        'httponly' = true
+        'httponly' => true
     ]);
 
 	setcookie("Datetime", date("Y-m-d H:i:s"), [
         'expires' => time() + 3600,
         'path' => '/',
         'secure' => false,
-        'httponly' = true
+        'httponly' => true
     ]);
 ?>
